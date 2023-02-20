@@ -1,0 +1,43 @@
+body {
+    background-color: lightblue;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+nav {
+    background-color: rgb(177, 177, 177);
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px black;
+}
+
+a {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+main{
+    background-color: white;
+    padding: 1px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0, 55, 67);
+}
+
+article > aside {
+    background-color: antiquewhite;
+    padding-left: 5px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: px;
+    border-radius: 10px;
+}

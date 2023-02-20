@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2dfd8783;
+}
+
+@font-face {
+    font-family: idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+#subtitle{
+    color: white;
+    text-align: center;
+    text-indent: 0%;
+    padding-bottom: 30px;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.595);
+}
+
+header {
+    background: rgb(1, 74, 50);
+    background: linear-gradient(0deg, rgba(0, 79, 53, 0.797) 0%, rgba(3,255,111,1) 81%);
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.6s;
+}
+
+.navbar {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition-duration: 0.6s;
+    
+}
+
+.navbar:hover{
+    background-color: rgb(1, 64, 1);
+    animation: ease-out 1s;
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.595);
+}
+
+p {
+    padding-left: 10px;
+    text-indent: 15px;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    max-width: 800px;
+}
+
+.title {
+    font-family: 'Idroid', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    padding: 2px;
+}
+
+h3 {
+    background: rgb(23,47,39);
+    background: linear-gradient(93deg, rgba(23,47,39,1) 0%, rgba(45,253,134,0.510989010989011) 100%);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: rgb(0, 60, 0);
+}
+
+img {
+    display: block;
+	margin: auto;
+	width: 80%;
+    height: auto;
+} 
+
+#video{
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 300px;
+    background-color: rgb(0, 77, 0);
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+div {
+    background-color: rgba(63, 240, 140, 0.492);
+    margin: auto;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px 5px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    max-width: 500px;
+}
+
+h4 {
+    background-color: #209754c7;
+    padding: 10px;
+    border-radius: 8px 8px 0px 0px;
+    color: white;
+    
+}
+
+ul {
+    list-style-position: inside;
+    columns: 2;
+    padding: 20px;
+}
+
+footer{
+    background-color: green;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
